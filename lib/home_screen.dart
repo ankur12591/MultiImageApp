@@ -84,8 +84,6 @@ class _MyHomePageState extends State<MyHomePage> {
           Asset asset = images[index];
           return ClipRRect(
             borderRadius: BorderRadius.circular(8),
-
-            //color: Colors.orange,
             child: AssetThumb(
               asset: asset,
               width: 300,
